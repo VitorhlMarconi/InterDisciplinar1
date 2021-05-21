@@ -44,6 +44,10 @@ body {
   margin-top: 30px;
 }
 
+.menu {
+  margin: 25px;
+}
+
 .menu ul {
   list-style-type: none;
 }
@@ -53,6 +57,39 @@ body {
   padding: 0 20px;
 }
 
+.menu p {
+  color: #0019fc;
+  margin-left: 300px;
+  position: absolute;
+  margin-top: 120px;
+}
+
 .menu li a {
   text-decoration: none;
+  color: #0019fc;
+  position: relative;
+  top: 95px;
+  right: 230px;
+}
+
+.arrow-down {
+  font-size: 0;
+  margin-left: 6px;
+  border: solid transparent;
+  border-width: 6px;
+  border-top-color: #0d42ee;
+  border-bottom-width: 0;
+  position: relative;
+  top: 120px;
+  left: 140px;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown-item {
+  position: absolute;
+  margin-left: 280px;
+  margin-top: 130px;
 }
