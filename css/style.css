@@ -13,83 +13,108 @@ body {
   clear: both;
 }
 
-.logo {
-  width: 100%;
+header {
+  max-width: 1280px;
+  margin: 30px;
 }
 
 .logo img {
-  width: 160px;
-  height: 48px;
-  margin-top: 20px;
-  margin-left: 100px;
-  background-color: #ccc;
   float: left;
+  width: 200px;
+  height: 40px;
+  background-color: #ccc;
+  position: absolute;
+  left: 200px;
 }
 
 .login {
-  margin-right: 100px;
+  float: right;
+  position: absolute;
+  right: 200px;
+}
+
+.login a {
+  font-size: 16px;
+}
+
+.login a:hover {
+  color: blue;
 }
 
 .login img {
-  float: right;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 30px;
   background-color: #ccc;
-  margin-right: 5px;
-  margin-top: 20px;
-}
-
-.login p {
-  float: right;
-  margin-top: 30px;
 }
 
 .menu {
-  margin: 25px;
+  position: absolute;
+  top: 100px;
+  width: 100%;
 }
 
 .menu ul {
+  margin-top: 30px;
+  margin-left: 150px;
   list-style-type: none;
 }
 
-.menu li {
-  float: left;
-  padding: 0 20px;
+.menu ul li {
+  display: inline-block;
+  margin-left: 40px;
 }
 
-.menu p {
-  color: #0019fc;
-  margin-left: 300px;
-  position: absolute;
-  margin-top: 120px;
+.menu ul li p {
+  font-size: 15px;
+  color: #007bff;
 }
 
-.menu li a {
+.menu ul li p:hover,
+.menu ul li span:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.menu ul li a {
+  font-size: 15px;
+}
+
+.menu ul li a:hover {
+  color: blue;
   text-decoration: none;
-  color: #0019fc;
-  position: relative;
-  top: 95px;
-  right: 230px;
 }
 
-.arrow-down {
-  font-size: 0;
-  margin-left: 6px;
-  border: solid transparent;
-  border-width: 6px;
-  border-top-color: #0d42ee;
-  border-bottom-width: 0;
-  position: relative;
-  top: 120px;
-  left: 140px;
+span {
+  width: 0px;
+  height: 0px;
+  border: 5px solid transparent;
+  position: absolute;
+  left: 265px;
+  top: 58px;
 }
 
-.dropdown-content {
+span.arrow-down {
+  border-top-color: rgb(27, 75, 209);
+}
+
+.menu-item {
+  max-width: 25%;
+  margin-top: 30px;
+}
+
+#categoria-item {
+  font-size: 14px;
+  position: relative;
+  left: 195px;
+  top: 160px;
+  margin-top: -15px;
+  list-style-type: none;
   display: none;
 }
 
-.dropdown-item {
-  position: absolute;
-  margin-left: 280px;
-  margin-top: 130px;
+#categoria-item:hover {
+  background-color: rgb(27, 207, 57);
+  height: 20%;
+  width: 13%;
+  cursor: pointer;
 }

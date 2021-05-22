@@ -34,44 +34,40 @@
 
         <div class="login">
 
-            <p>Entrar</p>
             <img src="">
+            <a style="text-decoration: none;" href="">Entrar</a>
 
         </div>
-
-        <div class="menu">
-
-            <ul>
-
-                <div class="dropdown">
-
-                   <p>Categorias</p><span class="arrow-down"></span></li>
-                    
-
-                </div>
-                    
-                <div class="dropdown-content">
-                       
-                        <a class="dropdown-item"  href="#">E-commerce</a><br>
-                        <a class="dropdown-item"  href="#">Turismo e Lazer</a><br>
-                        <a class="dropdown-item"  href="#">Alimentos e Bebidas</a><br>
-                        <a class="dropdown-item"  href="#">Casa e Construção</a><br>
-                        <a class="dropdown-item"  href="#">Beleza e Estética</a>
-                    
-                </div>
-
-                    <li><a href="#">Rankings</a></li>
-                    <li><a href="#">Dúvidas Frequentes</a></li>
-
-            </ul>
-
-        </div>
-
-        <div class="clear"></div>
 
     </header>
 
-    <script src="../javascript/functions.js"></script>
+    <div class="menu"><hr>
+
+        <ul>
+
+            <li><p>Categorias</p><span class="arrow-down"></span></li>
+            <li><a href="">Rankings</a></li>
+            <li><a href="">Dúvidas Frequentes</a></li>
+
+        </ul>
+
+    </div>
+
+    <div onclick="document.getElementById('menu-dropdown').style.display = 'block'" id="menu-dropdown">
+
+        <ul>
+
+            <li id="categoria-item"><p>E-commerce</p></li>
+            <li id="categoria-item"><p>Turismo e Lazer</p></li>
+            <li id="categoria-item"><p>Alimentos e Bebidas</p></li>
+            <li id="categoria-item"><p>Educação</p></li>
+        </ul>
+
+    </div>
+
+    <div class="clear"></div>
+
+<script src="../javascript/functions.js"></script>
 
 </body>
 </html>
