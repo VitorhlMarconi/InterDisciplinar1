@@ -402,9 +402,10 @@ footer img {
   max-width: 50%;
   position: absolute;
   left: 350px;
-  top: 300px;
+  top: 200px;
   bottom: -300px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
+  border: 2px solid black;
   background-color: #ccc;
 }
 
@@ -418,18 +419,27 @@ footer img {
   text-transform: uppercase;
 }
 
+.cpf {
+  position: relative;
+  left: 335px;
+  bottom: 110px;
+}
+
 .form-usuario .input-cpf {
-  width: 140px;
+  width: 133px;
   height: 40px;
   border-radius: 5px;
   padding: 10px;
   display: block;
+  position: relative;
+  left: 330px;
+  bottom: 90px;
 }
 
 .form-usuario .data-nascimento {
   position: relative;
-  bottom: 85px;
-  left: 190px;
+  bottom: 190px;
+  left: 480px;
 }
 
 .form-usuario .input-nascimento {
@@ -438,46 +448,151 @@ footer img {
   border-radius: 5px;
   padding: 10px;
   position: relative;
-  bottom: 40px;
-  right: 260px;
+  bottom: 130px;
+  left: 40px;
 }
 
 .form-usuario .genero {
   position: relative;
-  bottom: 30px;
+  bottom: 100px;
 }
 
 .form-usuario .masculino {
   position: relative;
-  bottom: 5px;
+  bottom: 75px;
 }
 
 .form-usuario .radio-masculino {
   position: relative;
   right: 350px;
-  bottom: 25px;
+  bottom: 95px;
 }
 
 .form-usuario .feminino {
   position: relative;
-  bottom: 38px;
+  bottom: 106px;
   left: 100px;
 }
 
 .form-usuario .radio-feminino {
   position: relative;
   right: 240px;
-  bottom: 58px;
+  bottom: 130px;
 }
 
 .form-usuario .outros {
   position: relative;
   left: 200px;
-  bottom: 70px;
+  bottom: 140px;
 }
 
 .form-usuario .radio-outros {
   position: relative;
-  right: 130px;
-  bottom: 90px;
+  right: 140px;
+  bottom: 163px;
+}
+
+.form-usuario .estado {
+  position: relative;
+  bottom: 228px;
+  left: 320px;
+}
+
+.form-usuario .select-estado {
+  position: relative;
+  bottom: 180px;
+  right: 30px;
+}
+
+.form-usuario .cidade {
+  position: relative;
+  bottom: 260px;
+  left: 450px;
+}
+
+.form-usuario .select-cidade {
+  position: relative;
+  bottom: 210px;
+  left: 100px;
+}
+
+.form-usuario .email {
+  position: relative;
+  bottom: 180px;
+}
+
+.form-usuario .input-email {
+  position: relative;
+  bottom: 170px;
+  right: 5px;
+  width: 50%;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form-usuario .celular {
+  position: relative;
+  bottom: 265px;
+  left: 330px;
+}
+
+.form-usuario .input-celular {
+  position: relative;
+  bottom: 250px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: 50%;
+  left: 320px;
+  padding: 10px;
+}
+
+.form-usuario .senha {
+  position: relative;
+  bottom: 230px;
+}
+
+.form-usuario .input-senha {
+  position: relative;
+  bottom: 220px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: 50%;
+  padding: 10px;
+}
+
+.form-usuario .confirmar-senha {
+  position: relative;
+  bottom: 310px;
+  left: 330px;
+}
+
+.form-usuario .input-confirmar-senha {
+  position: relative;
+  bottom: 325px;
+  left: 320px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: 50%;
+  padding: 10px;
+}
+
+.cadastrar-btn {
+  position: relative;
+  bottom: 220px;
+  right: 120px;
+  width: 250px;
+  height: 100px;
+  background-color: #007bff;
+  color: white;
+  border-bottom: 5px solid blue;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-size: 20px;
+  border-radius: 25px;
+}
+
+.cadastrar-btn:hover {
+  background-color: rgb(37, 37, 209);
 }
