@@ -65,30 +65,23 @@
 
     </div>
 
-    <div class="cadastro-titulo">
-
-        <h2>Olá, Crie uma conta no Sistema de Reclamação</h2>
-        <p>Com você logado, podemos oferecer a você um melhor serviço e mais personalizado. Com você logado, você pode ajudar outros milhões de consumidores.</p>
-
-    </div>
-
     <form class="form-usuario">
 
         <label>Nome e Sobrenome(Conforme escrito no seu CPF)</label>
         <input class="input-nome" placeholder="Digite seu nome e sobrenome" type="text">
-        <label>CPF</label>
+        <label class="cpf">CPF</label>
         <input class="input-cpf" type="text">
         <label class="data-nascimento">Data de Nascimento</label>
         <input class="input-nascimento" type="text">
         <label class="genero">Gênero</label>
         <label class="masculino">Masculino</label>
-        <input class="radio-masculino" type="radio">
+        <input class="radio-masculino" name="genero" type="radio">
         <label class="feminino">Feminino</label>
-        <input class="radio-feminino" type="radio">
+        <input class="radio-feminino" name="genero" type="radio">
         <label class="outros">Outros</label>
-        <input class="radio-outros" type="radio">
-        <label>Estado</label>
-        <select class="estado" name="estado">
+        <input class="radio-outros" name="genero" type="radio">
+        <label class="estado">Estado</label>
+        <select class="select-estado" name="estado">
 
             <option>SP</option>
             <option>RJ</option>
@@ -98,8 +91,8 @@
 
         </select>
 
-        <label>Cidade</label>
-        <select class="cidade" name="cidade">
+        <label class="cidade">Cidade</label>
+        <select class="select-cidade" name="cidade">
 
             <option>São Paulo</option>
             <option>Rio de Janeiro</option>
@@ -108,25 +101,20 @@
             <option>Minas Gerais</option>
 
         </select>
-        <label>E-mail</label>
-        <input class="input-email" type="email">
-        <label>Celular</label>
-        <input type="text">
-        <label>Crie uma senha</label>
-        <input type="password">
-        <label>Confirmar Senha</label>
-        <input type="password">
-        <button>Cadastrar</button>
+        <label class="email">E-mail</label>
+        <input class="input-email" placeholder="Digite seu melhor e-mail" type="email">
+        <label class="celular">Celular</label>
+        <input class="input-celular" placeholder="Digite seu número de celular" type="text">
+        <label class="senha">Crie uma senha</label>
+        <input class="input-senha" placeholder="Informe uma senha" type="password">
+        <label class="confirmar-senha">Confirmar Senha</label>
+        <input class="input-confirmar-senha" placeholder="Confirme sua senha" type="password">
+        <button class="cadastrar-btn">Cadastrar</button>
         
 
     </form>
 
-    <footer>
-
-        <img src="">
-        <p>Todos os direitos reservados!</p>
-    
-    </footer> 
+     
     
         <div class="clear"></div>
     
