@@ -596,3 +596,232 @@ footer img {
 .cadastrar-btn:hover {
   background-color: rgb(37, 37, 209);
 }
+
+.form-empresa {
+  padding: 30px;
+  max-width: 50%;
+  position: absolute;
+  left: 350px;
+  top: 200px;
+  bottom: -300px;
+  margin-bottom: 100px;
+  border: 2px solid black;
+  background-color: #ccc;
+}
+
+.form-empresa .input-nome-empresa {
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 43px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.form-empresa .nome-empresa-fantasia {
+  position: relative;
+  left: 335px;
+  bottom: 85px;
+}
+
+.form-empresa .input-nome-empresa-fantasia {
+  width: 50%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 43px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  position: relative;
+  left: 330px;
+  bottom: 88px;
+}
+
+.email-empresa {
+  position: relative;
+  bottom: 80px;
+}
+
+.form-empresa .input-email-empresa {
+  width: 220px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  position: relative;
+  bottom: 70px;
+  text-transform: uppercase;
+}
+
+.form-empresa .outro-email-empresa {
+  position: relative;
+  bottom: 150px;
+  left: 250px;
+}
+
+.form-empresa .input-outro-email-empresa {
+  width: 220px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  position: relative;
+  bottom: 143px;
+  left: 250px;
+  text-transform: uppercase;
+}
+
+.form-empresa .cnpj {
+  position: relative;
+  bottom: 140px;
+}
+
+.form-empresa .input-cnpj {
+  width: 165px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  bottom: 100px;
+  right: 340px;
+  text-transform: uppercase;
+}
+
+.form-empresa .site {
+  position: relative;
+  bottom: 175px;
+  left: 200px;
+}
+
+.form-empresa .input-site {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  bottom: 173px;
+  left: 195px;
+  text-transform: uppercase;
+}
+
+.form-empresa .estado-empresa {
+  position: relative;
+  bottom: 460px;
+  left: 500px;
+}
+
+.form-empresa .select-estado-empresa {
+  position: relative;
+  bottom: 408px;
+  left: 130px;
+  text-transform: uppercase;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.form-empresa .cidade-empresa {
+  position: relative;
+  bottom: 411px;
+  left: 480px;
+}
+
+.form-empresa .select-cidade-empresa {
+  position: relative;
+  bottom: 370px;
+  left: 120px;
+  text-transform: uppercase;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.form-empresa .endereco-empresa {
+  position: relative;
+  bottom: 170px;
+}
+
+.form-empresa .input-endereco-empresa {
+  position: relative;
+  bottom: 170px;
+  right: 5px;
+  width: 50%;
+  height: 40px;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form-empresa .cep-empresa {
+  position: relative;
+  bottom: 250px;
+  left: 330px;
+}
+
+.form-empresa .input-cep-empresa {
+  position: relative;
+  bottom: 210px;
+  right: 5px;
+  width: 100px;
+  height: 40px;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form-usuario .senha {
+  position: relative;
+  bottom: 230px;
+}
+
+.form-empresa .nome-responsavel-empresa {
+  position: relative;
+  bottom: 280px;
+}
+
+.form-empresa .input-nome-responsavel-empresa {
+  position: relative;
+  bottom: 280px;
+  right: 5px;
+  width: 50%;
+  height: 40px;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form-empresa .outro-nome-responsavel-empresa {
+  position: relative;
+  bottom: 350px;
+  left: 320px;
+}
+
+.form-empresa .input-outro-nome-responsavel-empresa {
+  position: relative;
+  bottom: 381px;
+  left: 320px;
+  width: 50%;
+  height: 40px;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cadastrar-empresa-btn {
+  position: relative;
+  bottom: 250px;
+  right: 120px;
+  width: 250px;
+  height: 100px;
+  background-color: #007bff;
+  color: white;
+  border-bottom: 5px solid blue;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-size: 20px;
+  border-radius: 25px;
+}
+
+.cadastrar-empresa-btn:hover {
+  background-color: rgb(37, 37, 209);
+}
