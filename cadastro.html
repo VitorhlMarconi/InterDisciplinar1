@@ -45,7 +45,7 @@
         <ul>
 
             <li><a href="index.html">Home</a></li>
-            <li><p>Categorias</p><span class="arrow-down"></span></li>
+            <li id="categoria-menu"><p>Categorias</p><span class="arrow-down"></span></li>
             <li><a href="">Rankings</a></li>
             <li><a href="">Dúvidas Frequentes</a></li>
 
@@ -53,16 +53,17 @@
 
     </div>
 
-    <div id="menu-dropdown">
+    <div class="dropdown">
+        
+        <ul id="menu-dropdown">
 
-        <ul>
-
-            <li id="categoria-item"><p>E-commerce</p></li>
-            <li id="categoria-item"><p>Turismo e Lazer</p></li>
-            <li id="categoria-item"><p>Alimentos e Bebidas</p></li>
-            <li id="categoria-item"><p>Educação</p></li>
+            <li class="categoria-item"><p>E-commerce</p></li>
+            <li class="categoria-item"><p>Turismo e Lazer</p></li>
+            <li class="categoria-item"><p>Alimentos e Bebidas</p></li>
+            <li class="categoria-item"><p>Educação</p></li>
+        
         </ul>
-
+    
     </div>
 
     <div class="cadastro-titulo">
@@ -86,7 +87,7 @@
         <img src="imagens/cadastro-empresa.svg">
         <h2>Sou empresa</h2>
         <p>Cadastre sua empresa. Responda suas reclamações e trabalhe sua reputação.</p>
-        <button>Cadastrar Empresa</button>
+        <a href="cadastro-empresa.html"><button>Cadastrar Empresa</button></a>
 
     </div>
     
@@ -98,6 +99,8 @@
     </footer>
 
     <div class="clear"></div>
+
+    <script src="javascript/functions.js"></script>
 
 </body>
 </html>
