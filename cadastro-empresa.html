@@ -45,7 +45,7 @@
         <ul>
 
             <li><a href="index.html">Home</a></li>
-            <li><p>Categorias</p><span class="arrow-down"></span></li>
+            <li id="categoria-menu"><p>Categorias</p><span class="arrow-down"></span></li>
             <li><a href="">Rankings</a></li>
             <li><a href="">Dúvidas Frequentes</a></li>
 
@@ -53,37 +53,38 @@
 
     </div>
 
-    <div id="menu-dropdown">
+    <div class="dropdown">
+        
+        <ul id="menu-dropdown">
 
-        <ul>
-
-            <li id="categoria-item"><p>E-commerce</p></li>
-            <li id="categoria-item"><p>Turismo e Lazer</p></li>
-            <li id="categoria-item"><p>Alimentos e Bebidas</p></li>
-            <li id="categoria-item"><p>Educação</p></li>
+            <li class="categoria-item"><p>E-commerce</p></li>
+            <li class="categoria-item"><p>Turismo e Lazer</p></li>
+            <li class="categoria-item"><p>Alimentos e Bebidas</p></li>
+            <li class="categoria-item"><p>Educação</p></li>
+        
         </ul>
-
+    
     </div>
 
     <form class="form-empresa">
 
         <label>Nome da empresa*</label>
-        <input class="input-nome-empresa" placeholder="Digite o nome da empresa" type="text">
+        <input class="input-nome-empresa" required placeholder="Digite o nome da empresa" type="text">
         <label class="nome-empresa-fantasia">Nome fantasia*</label>
-        <input class="input-nome-empresa-fantasia" placeholder="Digite o nome fantasia" type="text">
-        <label class="email-empresa">E-mail da empresa</label>
-        <input class="input-email-empresa" placeholder="Digite o email" type="text">
-        <label class="outro-email-empresa">Outro E-mail da empresa</label>
-        <input class="input-outro-email-empresa" placeholder="digite outro email" type="text">
-        <label class="cnpj">CNPJ</label>
-        <input class="input-cnpj" placeholder="digite o cnpj" type="text">
-        <label class="site">Site da empresa</label>
-        <input class="input-site" placeholder="digite o site da empresa" type="text">
-        <label class="endereco-empresa">Endereço</label>
-        <input class="input-endereco-empresa" placeholder="digite o endereço da empresa" type="text">
-        <label class="cep-empresa">CEP</label>
-        <input class="input-cep-empresa" placeholder="cep" type="text">
-        <label class="estado-empresa">Estado</label>
+        <input class="input-nome-empresa-fantasia" required placeholder="Digite o nome fantasia" type="text">
+        <label class="email-empresa">E-mail da empresa*</label>
+        <input class="input-email-empresa" required placeholder="Digite o email" type="email">
+        <label class="outro-email-empresa">Outro E-mail da empresa*</label>
+        <input class="input-outro-email-empresa" required placeholder="digite outro email" type="email">
+        <label class="cnpj">CNPJ*</label>
+        <input class="input-cnpj" required placeholder="digite o cnpj" type="text">
+        <label class="site">Site da empresa*</label>
+        <input class="input-site" required placeholder="digite o site da empresa" type="text">
+        <label class="endereco-empresa">Endereço*</label>
+        <input class="input-endereco-empresa" required placeholder="digite o endereço da empresa" type="text">
+        <label class="cep-empresa">CEP*</label>
+        <input class="input-cep-empresa" required placeholder="cep" type="text">
+        <label class="estado-empresa">Estado*</label>
         <select class="select-estado-empresa">
 
             <option>Acre</option>
@@ -94,7 +95,7 @@
 
         </select>
 
-        <label class="cidade-empresa">Cidade</label>
+        <label class="cidade-empresa">Cidade*</label>
         <select class="select-cidade-empresa" name="cidade">
 
             <option>São Paulo</option>
@@ -105,18 +106,19 @@
 
         </select>
 
-        <label class="nome-responsavel-empresa">Nome do Responsável 1</label>
-        <input class="input-nome-responsavel-empresa" placeholder="Digite o nome do responsável 1" type="text">
-        <label class="outro-nome-responsavel-empresa">Nome do Responsável 2</label>
-        <input class="input-outro-nome-responsavel-empresa" placeholder="Digite o nome do responsável 2" type="text">
+        <label class="nome-responsavel-empresa">Nome do Responsável 1*</label>
+        <input class="input-nome-responsavel-empresa" required placeholder="Digite o nome do responsável 1" type="text">
+        <label class="outro-nome-responsavel-empresa">Nome do Responsável 2*</label>
+        <input class="input-outro-nome-responsavel-empresa" required placeholder="Digite o nome do responsável 2" type="text">
         <button class="cadastrar-empresa-btn">Cadastrar</button>
         
 
     </form>
 
-     
-    
-        <div class="clear"></div>
-    
+    <div class="clear"></div>
+
+    <script src="javascript/functions.js"></script>
+    <script src="javascript/jquery.maskedinput.js"></script>    
+
     </body>
     </html>
