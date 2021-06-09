@@ -45,7 +45,7 @@
         <ul>
 
             <li><a href="index.html">Home</a></li>
-            <li><p>Categorias</p><span class="arrow-down"></span></li>
+            <li id="categoria-menu"><p>Categorias</p><span class="arrow-down"></span></li>
             <li><a href="">Rankings</a></li>
             <li><a href="">Dúvidas Frequentes</a></li>
 
@@ -53,31 +53,32 @@
 
     </div>
 
-    <div id="menu-dropdown">
+    <div class="dropdown">
+        
+        <ul id="menu-dropdown">
 
-        <ul>
-
-            <li id="categoria-item"><p>E-commerce</p></li>
-            <li id="categoria-item"><p>Turismo e Lazer</p></li>
-            <li id="categoria-item"><p>Alimentos e Bebidas</p></li>
-            <li id="categoria-item"><p>Educação</p></li>
+            <li class="categoria-item"><p>E-commerce</p></li>
+            <li class="categoria-item"><p>Turismo e Lazer</p></li>
+            <li class="categoria-item"><p>Alimentos e Bebidas</p></li>
+            <li class="categoria-item"><p>Educação</p></li>
+        
         </ul>
-
+    
     </div>
 
     <h2>Que bom que você vai usar o Sistema de Reclamação :)</h2>
     <p class="p-login">Insira o login e senha para acessar sua área do consumidor ou área da empresa.</p>
 
-    <div class="form-login">
+    <form class="form-login">
 
         <label>Login</label>
-        <input class="input-login" placeholder="Seu e-mail, usuário ou CPF/CNPJ">
+        <input class="input-login" required placeholder="Seu e-mail, usuário ou CPF/CNPJ" type="text">
         <label>Senha</label>
-        <input class="input-senha" placeholder="Sua senha de acesso">
+        <input class="input-senha" required placeholder="Sua senha de acesso" type="password">
         <a class="esqueci-senha" href="">Esqueci minha senha</a>
         <button style="outline: 0;" class="btn-entrar">Entrar</button>
 
-    </div>
+    </form>
 
     <div class="cadastro">
 
@@ -94,6 +95,8 @@
     </footer>
 
     <div class="clear"></div>
+
+    <script src="javascript/functions.js"></script>
 
 </body>
 </html>

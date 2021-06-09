@@ -34,8 +34,8 @@
 
         <div class="login">
 
-            <img src="imagens/img_login.png">
-            <a style="text-decoration: none;" href="">Entrar</a>
+            <a href="login.html"><img src="imagens/img_login.png"></a>
+            <a href="login.html">Entrar</a>
 
         </div>
 
@@ -45,7 +45,8 @@
 
         <ul>
 
-            <li><p>Categorias</p><span class="arrow-down"></span></li>
+            <li><a href="index.html">Home</a></li>
+            <li id="categoria-menu"><p>Categorias</p><span class="arrow-down"></span></li>
             <li><a href="">Rankings</a></li>
             <li><a href="">Dúvidas Frequentes</a></li>
 
@@ -53,16 +54,17 @@
 
     </div>
 
-    <div id="menu-dropdown">
+    <div class="dropdown">
+        
+        <ul id="menu-dropdown">
 
-        <ul>
-
-            <li id="categoria-item"><p>E-commerce</p></li>
-            <li id="categoria-item"><p>Turismo e Lazer</p></li>
-            <li id="categoria-item"><p>Alimentos e Bebidas</p></li>
-            <li id="categoria-item"><p>Educação</p></li>
+            <li class="categoria-item"><p>E-commerce</p></li>
+            <li class="categoria-item"><p>Turismo e Lazer</p></li>
+            <li class="categoria-item"><p>Alimentos e Bebidas</p></li>
+            <li class="categoria-item"><p>Educação</p></li>
+        
         </ul>
-
+    
     </div>
 
     <div class="barra-pesquisa">
@@ -76,7 +78,7 @@
 
     <div class="clear"></div>
 
-<script src="../javascript/functions.js"></script>
+<script src="javascript/functions.js"></script>
 
 </body>
 </html>
